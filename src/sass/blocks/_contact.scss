@@ -1,0 +1,29 @@
+.contact {
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 96px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+        max-height: 436px;
+    }
+    &__map {
+        height: 436px;
+        width: 836px;
+    }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,26 @@
+.slider {
+    min-height: 450px;
+    &__first {
+        min-height: 450px;
+        background-image: url("../../img/BG_slaider1.png");
+    }
+    &__content {
+        width: 480px;
+        height: 307px;
+        padding: 64px 0 0 110px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: $black-color;
+    }
+    &__description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 24px;
+        padding-right: 50px;
+        color: $black-color;
+    }
+}

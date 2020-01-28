@@ -1,0 +1,56 @@
+.header { 
+    max-height: 112px;
+    background: #F7F7F2;
+    box-shadow: 0px 4px 24px rgba(179, 60, 134, 0.4);
+    letter-spacing: inherit;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    &__logo {
+        width: 201px;
+        margin: 16px;
+        img {
+            width: 100%;
+        }
+    }
+    &__nav {
+        min-width: 628px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin-top: 28px;
+            color: $black-color;
+            b {
+                color: $main-color;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+    }
+    &__contact {
+        min-width: 200px;
+        padding-top: 24px;
+        text-align: right;
+        &_tel {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 34px;
+            color: $black-color;
+        }
+        &_address {
+            font-weight: 600;
+            font-size: 13px;
+            position: relative;
+        }
+    }
+    &__img {
+        position: absolute;
+        left: -20px;
+        bottom: 1px;
+    }
+}

@@ -1,0 +1,28 @@
+.subtitle {
+    padding: 26px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    background: #F7F7F2;
+    box-shadow: inset 0px 4px 8px rgba(104, 29, 76, 0.25);
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 49px;
+        height: 50px;
+        position: relative;
+    }
+    a {
+        border-bottom: 1px dashed #B33C86;
+        color: #B33C86;
+    }
+    &__active {
+        
+        background: url('../../icons/heart.png') center -20px  no-repeat;
+        a {
+            color: #000;
+            border-bottom: none;
+        }
+    }
+}

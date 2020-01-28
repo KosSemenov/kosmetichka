@@ -1,0 +1,61 @@
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: Open Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: $black-color;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: $main-color;
+}
+h5 {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 32px;
+    background-color: $main-color;
+    width: 220px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 11px 27px rgba(234, 99, 140, 0.51), 0px 1px 1px #B33C86;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/slider';
+@import 'blocks/subtitle';
+@import 'blocks/advantages';
+@import 'blocks/content';
+@import 'blocks/form';
+@import 'blocks/diamond';
+@import 'blocks/cherry';
+@import 'blocks/table';
+@import 'blocks/contact';
+@import 'blocks/footer';

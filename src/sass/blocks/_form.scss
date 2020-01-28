@@ -1,0 +1,65 @@
+.form {
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    &__text {
+        width: 50%;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    &__text {
+        padding: 30px 100px 0px 30px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 20px;
+    }
+    &__descr {
+        font-size: 18px;
+        line-height: 25px;
+        width: 40%;
+        padding-right: 8%;
+    }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 28px;
+        width: 80%;
+    }
+    &__img {
+        width: 50%;
+        padding-left: 5%;
+        position: relative;
+    }
+    &__item {
+        &_bgBox {
+            position: absolute;
+            width: 511px;
+            height: 380px;
+            left: 62px;
+            top: 42px;
+            background: #F7F7F2;
+            border-radius: 16px;
+        }
+        &_bgBox2 {
+            position: absolute;
+            width: 580px;
+            height: 400px;
+            right: 20px;
+            top: 70px;
+            background: rgba(234, 99, 140, 0.1);
+            border-radius: 16px;
+        }
+    }
+    &__mainImg {
+        position: absolute;
+    }
+}

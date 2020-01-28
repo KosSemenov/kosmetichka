@@ -1,0 +1,28 @@
+.footer {
+    width: 1280px;
+    margin: 0 auto;
+    background: #EA638C;
+    height: 200px;
+    padding-top: 96px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__store {
+        width: 25%;
+        color: #fff;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-bottom: 48px;
+    }
+    &__tel {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF; 
+    }
+}
