@@ -7,6 +7,8 @@
         margin-bottom: 96px;
     }
     &__wrapper {
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         margin-bottom: 64px;
@@ -14,7 +16,7 @@
     }
     &__map {
         height: 436px;
-        width: 836px;
+        width: 700px;
     }
     &__subtitle {
         font-weight: 600;
@@ -22,6 +24,7 @@
         line-height: 32px;
     }
     &__text {
+        padding: 30px;
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;

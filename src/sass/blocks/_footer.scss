@@ -2,27 +2,34 @@
     width: 1280px;
     margin: 0 auto;
     background: #EA638C;
-    height: 200px;
-    padding-top: 96px;
+    height: 170px;
+    text-align: center;
+    padding: 20px;
     &__wrapper {
         display: flex;
-        justify-content: space-around;
     }
     &__store {
-        width: 25%;
+        width: 30%;
         color: #fff;
+        // text-align: left;
     }
     &__title {
         font-weight: 600;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 20px;
+        line-height: 28px;
         color: #FFFFFF;
         margin-bottom: 48px;
     }
     &__tel {
+        padding-right: 50px;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 34px;
         line-height: 32px;
         color: #FFFFFF; 
+        text-align: right;
+        width: 40%;
+        a {
+            color: #FFFFFF;
+        }
     }
 }
