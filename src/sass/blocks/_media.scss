@@ -1,0 +1,140 @@
+@media (max-width: 1080px) {
+    .subtitle {
+        font-size: 12px;
+    }
+    .advantages {
+        &__item {
+            width: 256px;
+            margin-left: 20px;
+            img {
+                width: 100px;
+                padding-top: 50px;
+            }
+        }
+        &__title {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    }
+    .content {
+        padding-top: 0;
+        min-height: 500px;
+        &__title {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__mainImg {
+            width: 90%;
+            padding-top: 20px;
+        }
+    }
+    .form {
+        padding-top: 0;
+        min-height: 520px;
+        &__title {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__item {
+            &_bgBox{
+                width: 450px;
+            }
+        }
+        &__mainImg {
+            width: 90%;
+            padding-top: 20px;
+        }
+    }
+    .diamond {
+        min-height: 500px;
+        &__title {
+            font-size: 20px;
+            line-height: 28px;
+            
+        }
+        &__descr {
+            font-size: 15px;
+            line-height: 22px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__mainImg {
+            width: 90%;
+            padding-top: 20px;
+        }
+    }
+    .cherry {
+        padding-top: 0;
+        min-height: 520px;
+        &__title {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__item {
+            &_bgBox{
+                width: 450px;
+            }
+        }
+        &__mainImg {
+            width: 90%;
+            padding-top: 20px;
+        }
+    }
+    caption {
+        font-size: 25px;
+        text-align: center;
+        padding: 50px 0 30px 0;
+    }
+    .table {
+        padding-bottom: 60px;
+        &__bg {
+            width: 300px;
+            left: 380px;
+            top: 130px;
+
+        }
+        th {
+            font-size: 20px;
+        }
+    }
+    .contact {
+        &__title {
+            margin-bottom: 30px;
+            line-height: 30px;
+        }
+        &__map {
+            width: 550px;
+        }
+    }
+    .footer {
+        &__title {
+            font-size: 17px;
+        }
+        &__tel {
+            text-align: left;
+            font-size: 30px;
+            margin-left: 40px;
+            width: 30%;
+            padding-right: 0;
+        }
+        
+    }
+    
+}

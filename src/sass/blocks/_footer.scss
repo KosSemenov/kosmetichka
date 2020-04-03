@@ -1,5 +1,5 @@
 .footer {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     background: #EA638C;
     height: 170px;
@@ -7,11 +7,17 @@
     padding: 20px;
     &__wrapper {
         display: flex;
+        justify-content: space-around;
     }
     &__store {
         width: 30%;
         color: #fff;
-        // text-align: left;
+    }
+    &__maneTitle{
+        color: #fff;
+        margin: 25px 0;
+        font-size: 22px;
+        font-weight: 600;
     }
     &__title {
         font-weight: 600;
