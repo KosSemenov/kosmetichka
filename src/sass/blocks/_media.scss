@@ -138,3 +138,225 @@
     }
     
 }
+@media (max-width: 992px) {
+    .header {
+        &__nav {
+            min-width: 550px;  
+        }
+    }
+    b {
+        font-size: 12px;
+    }
+    .slider {
+        &__first {
+            background-position: 50% 30%;
+            background-size: 100% 120%;
+        }
+        &__second {
+            background-position: 50% 50%;
+            background-size: 100% 160%; 
+        }
+        &__third {
+            background-position: 2% 0%;
+            background-size: 110% 110%;
+        }
+        &__fourth {
+            background-position: 30% 0%;
+            background-size: 110% 110%;
+        }
+    }
+    .content {
+        
+        &__descr {
+            font-size: 14px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__mainImg {
+            width: 90%;
+            padding-top: 20px;
+        }
+    }
+    .form {
+        &__item {
+            &_bgBox2{
+                top: 4px;
+            }
+            &_bgBox {
+                left: 20px;
+                top: 70px;
+            }
+        }
+    }
+    .diamond {
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__item {
+            &_bgBox {
+                height: 440px;
+            }
+        }
+    }
+    .cherry {
+        &__item {
+            &_bgBox{
+                width: 430px;
+            }
+        }
+    }
+    .table {
+        &__bg {
+            width: 250px;
+            left: 360px;
+            top: 130px;
+
+        }
+    }
+    .contact {
+        &__text {
+            font-size: 15px;
+        }
+    }   
+}
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+        padding: 0 20px;
+        &__nav {
+            display: none;
+        }
+    }
+    .slider {
+        &__first {
+            min-height: 400px;
+            background-position: 50% 30%;
+            background-size: 100% 120%;
+        }
+        &__second {
+            min-height: 400px;
+            background-position: 50% 30%;
+            background-size: 110% 140%; 
+        }
+        &__third {
+            min-height: 400px;
+            background-position: -14% 0%;
+            background-size: 120% 110%;
+        }
+        &__fourth {
+            min-height: 400px;
+        }
+        &__content {
+            padding: 30px 0 0 25px;
+        }
+    }
+    .subtitle {
+        padding: 10px 0;
+        font-size: 9px;
+        line-height: 25px;
+    }
+    .advantages {
+        &__item {
+            width: 200px;
+            img {
+                padding-top: 20px;
+            }
+        }
+        &__link {
+            font-size: 12px;
+        }
+        &__descr {
+            font-size: 13px;
+            margin-top: 14px;
+        }
+        &__circle {
+            &_little {
+                width: 200px;
+                height: 200px;
+                left: -10px;
+                top: 70px;
+            }
+            &_average {
+                width: 250px;
+                height: 250px;
+                top: 10px;
+                right: 30px;
+            }
+            &_big {
+                width: 330px;
+                height: 330px;
+                right: 250px;
+                bottom: -110px;
+            }
+        }
+    }
+    .content {
+        min-height: 400px;
+        &__text {
+            width: 50%;
+            padding-left: 4%;
+            padding-top: 40px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__subtitle {
+            display: none;
+        }
+        &__item {
+            &_bgBox {
+                width: 510px;
+                height: 345px;
+                left: 40px;
+                top: 55px;
+            }
+            &_bgBox2 {
+                width: 370px;
+                height: 284px;
+                left: -10px;
+                top: 80px;
+            }
+        }
+    }
+    .form {
+        min-height: 440px;
+        
+        &__title {
+            font-size: 18px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        &__text {
+            padding: 60px 30px 0 0;
+        }
+        &__subtitle {
+            display: none;
+        }
+        &__mainImg {
+            padding-top: 40px;
+            left: 20px;
+        }
+        &__item {
+            &_bgBox {
+                width: 340px;
+                height: 320px;
+                left: 5px;
+                top: 15px;
+            }
+            &_bgBox2 {
+                width: 350px;
+                height: 280px;
+                left: 20px;
+                top: 150px;
+            }
+        }
+    }
+
+}

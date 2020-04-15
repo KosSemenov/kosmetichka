@@ -18,12 +18,11 @@
         color: #B33C86;
     }
     &__active {
-        
-        background: url('../../icons/heart.png') center -20px  no-repeat;
-        
+        background: url('../../icons/heart.png') center -10px  no-repeat;
         a {
             color: #000;
             border-bottom: none;
-        }
+            height: 100px;
+        }  
     }
 }
