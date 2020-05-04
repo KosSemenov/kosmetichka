@@ -104,12 +104,6 @@
     }
     .table {
         padding-bottom: 60px;
-        &__bg {
-            width: 300px;
-            left: 380px;
-            top: 130px;
-
-        }
         th {
             font-size: 20px;
         }
@@ -204,14 +198,6 @@
             &_bgBox{
                 width: 430px;
             }
-        }
-    }
-    .table {
-        &__bg {
-            width: 250px;
-            left: 360px;
-            top: 130px;
-
         }
     }
     .contact {
@@ -325,7 +311,7 @@
     }
     .form {
         min-height: 440px;
-        
+        padding: 30px 10px 0 0 ;
         &__title {
             font-size: 18px;
         }
@@ -358,5 +344,750 @@
             }
         }
     }
+    .diamond {
+        &__text {
+            padding: 60px 0  0 30px;
+        }
+        &__img {
+            width: 58%;
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__descr {
+            font-size: 13px;
+            line-height: 20px;
+        }
+        &__subtitle {
+            display: none;
+        } 
+        &__mainImg {
+            padding-top: 70px;
+        }
+        &__item {
+            &_bgBox2 {
+                width: 400px;
+                height: 300px;
+                left: 10px;
+                top: 135px;
+            }
+        }
+    }
+    .cherry {
+        min-height: 450px;
+        &__text {
+            padding: 30px 10px 0 10px;
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__subtitle {
+            display: none;
+        } 
+        &__mainImg {
+            width: 100%;
+            padding-top: 40px;
+            left: 0px;
+        }
+        &__item {
+            &_bgBox {
+                width: 350px;
+                height: 425px;
+                left: 40px;
+                top: 30px;
+            }
+            &_bgBox2 {
+                width: 365px;
+                height: 366px;
+                right: 40px;
+                top: 70px;
+            }
+        }
+    }
+    caption {
+        font-size: 22px;
+    }
+    table {
+        width: 100%;
+    }
+    .table {
+        padding-bottom: 30px;
+    }
+    .contact {
+        &__text {
+            padding: 20px 0 0 0;
+            line-height: 21px;
+        }
+        &__title {
+            font-size: 28px;
+        }
+        &__map {
+            width: 400px;
+            height: 350px;
+        }
+    }
+    .footer {
+        &__maneTitle {
+            font-size: 18px;
+        }
+        &__title {
+            margin-bottom: 0;
+            font-size: 15px;
+        }
+        &__wrapper {
+            justify-content: space-between;
+            text-align: center;
+        }
+        &__tel {
+            font-size: 22px;
+        }
+    }
 
+}
+
+@media (max-width: 600px) {
+    .slider {
+        &__title {
+            font-size: 26px;
+        }
+        &__content {
+            padding: 30px 0 0 30px;
+            width: 350px;
+            height: 100%;
+        }
+        &__description {
+            display: none;
+        }
+        &__first {
+            min-height: 300px;
+        }
+        &__second {
+            min-height: 300px;
+            background-position: 0% 30%;
+        }
+        &__third {
+            min-height: 300px;
+        }
+        &__fourth {
+            min-height: 300px;
+        }
+        
+    }
+    button {
+        margin-top: 15px;
+    }
+    .subtitle {
+        line-height: 15px;
+        padding: 0;
+        &__items {
+            padding: 0;
+        }
+    }
+    .advantages {
+        &__circle {
+            &_big {
+                right: 150px;
+                bottom: -200px;
+            }
+        }
+    }
+    .content {
+        min-height: 360px;
+        &__text {
+            width: 53%;
+            padding-left: 1%;
+            padding-top: 20px;
+        }
+        &__img {
+            width: 40%;
+        }
+        &__mainImg {
+            width: 110%;
+            top: 50px;
+            right: 4px;
+
+        }
+        &__item {
+            &_bgBox {
+                top: 20px;
+            }
+            &_bgBox2 {
+                top: 50px;
+            }
+        }
+    }
+    .form {
+        min-height: 380px;
+        padding-top: 20px ;
+        
+        &__descr {
+            font-size: 13px;
+        }
+        &__text {
+            padding: 0;
+            width: 58%;
+        }
+        &__img {
+            width: 41%;
+        }
+        
+        &__mainImg {
+            width: 100%;
+            top: 40px;
+            left: 0;
+        }
+        &__item {
+            &_bgBox {
+                width: 296px;
+                height: 332px;
+                left: -64px;
+                top: 8px;
+                transform: rotate(13deg);
+            }
+            &_bgBox2 {
+                width: 242px;
+                height: 231px;
+                left: 0px;
+                top: 87px;
+                transform: rotate(-17deg);
+            }
+        }
+    }
+
+    .diamond {
+        min-height: 440px;
+        &__img {
+          width: 47%;  
+        }
+        &__text {
+            width: 58%;
+            padding: 30px 0 0 15px;
+        }
+        &__mainImg {
+            width: 110%;
+            top: 50px;
+            right: 5px;
+            transform: rotate(-5deg);
+        }
+        &__item {
+            &_bgBox {
+                width: 270px;
+                height: 210px;
+                left: -50px;
+                top: 40px;
+                transform: rotate(20deg);
+            }
+            &_bgBox2 {
+                width: 250px;
+                height: 230px;
+                left: 6px;
+                top: 200px;
+                transform: rotate(5deg);
+            }
+        }
+    }
+    .cherry {
+        &__text {
+            width: 58%;
+        }
+        &__img {
+            padding: 0;
+            width: 40%;
+        }
+        &__mainImg {
+            width: 110%;
+            padding-top: 100px;
+            left: -6px;
+        }
+        &__item {
+            &_bgBox {
+                width: 150px;
+                height: 136px;
+                left: 65px;
+                top: 27px;
+                transform: rotate(45deg);
+            }
+            &_bgBox2 {
+                width: 250px;
+                height: 230px;
+                left: 6px;
+                top: 170px;
+                transform: rotate(45deg);
+            }
+        }
+    }
+    .table {
+        th {
+            font-size: 15px;
+        }
+        tr {
+            font-size: 15px;
+        }
+    }
+    .contact {
+        &__map {
+            width: 290px;
+            height: 300px;
+        }
+        .subtitle {
+            font-size: 17px;
+            line-height: 20px;
+        }
+    }
+    .footer {
+        padding: 5px;
+        &__tel{
+            font-size: 18px;
+        }
+        &__title {
+            font-size: 14px;
+        }
+     }
+}
+@media (max-width: 480px) {
+    .slider {
+        &__title {
+            font-size: 20px;
+        }
+        &__content {
+            padding: 10px 0 10px 30px;
+            width: 250px;
+        }
+        &__first {
+            min-height: 230px;
+        }
+        &__second {
+            min-height: 230px;
+        }
+        &__third {
+            min-height: 230px;
+        }
+        &__fourth {
+            min-height: 230px;
+        } 
+    }
+    .subtitle {
+        display: none;
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 10px;
+        }
+        &__title {
+            font-size: 25px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        &__item {
+            width: 300px;
+            position: relative;
+            img {
+                position: absolute;
+                left: -45%;
+                top: 2px;
+            }
+        }
+        &__circle {
+            &_little {
+                left: 2px;
+                top: 170px;
+            }
+            &_big {
+                right: 10px;
+                bottom: -60px;
+            }
+        }
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+        min-height: 350px;
+        justify-content: start;
+        &__text {
+            width: 90%;
+            font-weight: 700;
+        }
+        &__mainImg {
+            width: 141%;
+            top: -250px;
+            right: -145px;
+            opacity: 0.3;
+            transform: rotate(9deg);
+        }
+        &__item {
+            &_bgBox {
+              display: none; 
+            }
+            &_bgBox2 {
+                display: none;
+            }
+        }
+    }
+    .form {
+        flex-direction: column;
+        align-items: center;
+        min-height: 370px;
+        justify-content: start;
+        &__text {
+            z-index: 2;
+            width: 90%;
+            font-weight: 700;
+        }
+        &__descr {
+            padding-right: 0;
+        }
+        &__mainImg {
+            top: 95px;
+            left: -20px;
+        }
+    }
+    .diamond {
+        flex-direction: column;
+        align-items: center;
+        min-height: 370px;
+        justify-content: start;
+        &__text {
+            width: 83%;
+            z-index: 2;
+            padding: 0;
+        }
+        &__mainImg {
+            top: -333px;
+            right: -167px;
+            transform: rotate(-23deg);
+        }
+        &__item {
+            &_bgBox {
+                width: 221px;
+                height: 210px;
+                left: 110px;
+                top: -300px;
+            }
+            &_bgBox2 {
+                display: none;
+            }
+        }
+    }
+    .cherry {
+        flex-direction: column;
+        align-items: center;
+        min-height: 380px;
+        justify-content: start;
+        &__text {
+            width: 85%;
+            z-index: 2;
+            padding-top: 0;
+        }
+        &__mainImg {
+            padding-top: 50px;
+            left: 170px;
+            transform: rotate(15deg);
+        }
+        &__item {
+            &_bgBox {
+                left: -33px;
+                top: 27px;
+            }
+            &_bgBox2 {
+                width: 250px;
+                height: 230px;
+                left: 6px;
+                top: 104px;
+                transform: rotate(23deg);
+            }
+        }
+        &__trait {
+            bottom: -50px;
+            width: 90%;
+        }
+    }
+    .table {
+        &__caption {
+            font-size: 24px;
+        }
+    }
+    table {
+        border-spacing: 14px;
+    }
+    th {
+        width: 40%;
+        line-height: 20px;
+    }
+    .contact {
+        height: 1200px;
+        &__title {
+            font-size: 23px;
+            margin-bottom: 0px;
+        }
+        &__text {
+            padding: 10px 0 0 0;
+            font-size: 15px;
+            line-height: 16px;
+            font-weight: 600;
+
+        }
+        &__wrapper {
+            padding: 20px 0;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: start;
+        }
+        &__map {
+            width: 425px;
+            margin: 20px 0;
+        }
+    }
+    .footer {
+        height: 150px;
+        &__maneTitle {
+            font-size: 14px;
+        }
+        &__title {
+            line-height: 20px;
+            font-size: 12px;
+        }
+        &__tel {
+            margin-left: 0;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        height: 60px;
+        padding: 0 10px 0 0;
+        justify-content: flex-end;
+        &__contact {
+            padding: 4px 0 0 0 ;
+            &_tel {
+                font-size: 16px;
+                line-height: 25px;
+            }
+            &_address {
+                font-size: 11px;
+            }
+        }
+        &__logo {
+            margin: 0;
+            position: absolute;
+            width: 130px;
+            top: 2px;
+            left: 10px;
+        }
+    }
+    .slider {
+        &__title {
+            font-size: 15px;
+            line-height: 24px;
+        }
+        &__content {
+            padding: 5px 0 0 20px;
+            width: 150px;
+            height: 100%;
+        }
+        &__description {
+            display: none;
+        }
+        &__first {
+            min-height: 180px;
+        }
+        &__second {
+            min-height: 180px;
+            background-position: 0% 30%;
+        }
+        &__third {
+            min-height: 180px;
+        }
+        &__fourth {
+            min-height: 180px;
+        } 
+    }
+    button {
+        margin: 0;
+        font-size: 12px;
+        width: 135px;
+        height: 30px;
+    }
+    .advantages {
+        &__item {
+            img {
+                position: relative;
+                left: 30%;
+                top: 2px;
+            }
+        }
+        &__circle {
+            &_little {
+                top: 315px;
+            }
+            &_big {
+                bottom: 40px;
+            }
+        }
+    }
+    .content {
+        min-height: 330px;
+        &__title {
+            font-size: 17px;
+            line-height: 27px;
+            padding: 0 0 0 5px;
+        }
+        &__descr {
+            font-size: 11px;
+        }
+        &__text {
+            width: 97%;
+        }
+        &__mainImg {
+            width: 170%;
+            top: -225px;
+            right: -110px;
+        }
+    }
+    .form {
+        &__title {
+            font-size: 17px;
+            line-height: 27px;
+            padding: 0 0 0 5px;
+        }
+        &__text {
+            width: 95%;
+        }
+        &__descr {
+            width: 47%;
+        }
+        &__mainImg {
+            top: 130px;
+            left: -14px;
+            opacity: 0.7;
+        }
+        &__item {
+            &_bgBox {
+                width: 154px;
+                height: 140px;
+                left: -64px;
+                top: 8px;
+            }
+            &_bgBox2 {
+                width: 190px;
+                height: 170px;
+                left: 133px;
+                top: 87px;
+            }
+        }
+    }
+    .diamond {
+        &__title {
+            font-size: 17px;
+            line-height: 27px;
+            padding: 0 0 0 5px;
+        }
+        &__text {
+            width: 95%;
+        }
+        &__mainImg {
+            top: -333px;
+            right: -120px;
+            opacity: 0.7;
+            width: 140%;
+        }
+        &__item {
+            &_bgBox {
+                width: 195px;
+                height: 150px;
+                left: -100px;
+                top: -190px;
+            }
+            
+        }
+    }
+    .cherry {
+        &__title {
+            font-size: 17px;
+            line-height: 27px;
+            padding: 0 0 0 5px;
+            margin-bottom: 10px;
+        }
+        &__text {
+            width: 95%;
+        }
+        &__descr {
+            font-size: 13px;
+            width: 49%;
+            padding: 0;
+        }
+        &__mainImg {
+            padding-top: 55px;
+            left: 115px;
+        }
+    }
+    .table {
+        &__caption {
+            font-size: 19px;
+            padding: 27px 0 15px 0;
+        }
+    }
+    caption {
+        line-height: 33px;
+        font-size: 26px;
+        padding: 10px;
+    }
+    table {
+        border-spacing: 7px;
+        width: 98%;
+    }
+    th {
+        width: 30%;
+        text-align: left;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    tr {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .table {
+        th {
+            font-size: 13px;
+            width: 20%;
+            text-align: center;
+        }
+        tr {
+            padding-left: 10px;
+        }
+    }
+    .contact {
+        height: 1120px;
+        &__map {
+            width: 280px;
+            height: 250px;
+        }
+        &__wrapper {
+            padding: 0;
+        }
+    }
+    .footer {
+        height: 200px;
+        &__maneTitle {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__store {
+            width: 80%;
+            margin: 7px 0;
+        }
+        &__tel {
+            width: 50%;
+        }
+    }
 }

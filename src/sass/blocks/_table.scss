@@ -2,37 +2,50 @@
     position: relative;
     padding-bottom: 86px;
     &__bg {
-        position: absolute;
-        width: 352px;
-        height: 930px;
-        left: 460px;
-        top: 160px;
-        background: rgba(234, 99, 140, 0.1);
-        border-radius: 8px;
+        background: rgba(234, 99, 140, 0.05);
+        &_th {
+            border-radius: 8px 8px 0 0;
+        }
+        &_footer {
+            border-radius: 0 0 8px 8px;
+        }
     }
-}
-table {
-    width: 80%;
-    margin: 0 auto;
-    border-spacing: 24px;
-}
-caption {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    padding: 73px 0 86px 20px;
-    text-align: left;
-}
-
-th {
-    width: 33%;
-    text-align: left;
-    font-size: 24px;
-    line-height: 32px;
-}
-
-tr {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
+    &__caption {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        padding: 58px 0 62px;
+        text-align: center;
+        @mixin breakpoint-lg {
+            text-align: left;
+        }
+    }
+    table {
+        width: 80%;
+        margin: 0 auto;
+        border-spacing: 24px;
+        border-collapse: collapse;
+    }
+    
+    th {
+        width: 33%;
+        text-align: left;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    tr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    td,
+    th {
+        padding: 24px;
+        
+        @include breakpoint-md {
+            padding: 3px;
+            font-size: 12px;
+        }
+    }
 }

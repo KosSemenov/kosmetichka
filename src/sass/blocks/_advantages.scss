@@ -74,4 +74,51 @@
             opacity: 0.3;
         }
     }
+    &__animation {
+        animation-name: little;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    &__animation2 {
+        animation-name: little;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        // animation-delay: 2s;
+    }
+    &__animation3 {
+        animation-name: little;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-delay: 4s;
+    }
+}
+
+@keyframes little {
+    0% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(0.7)
+    }
+    100% {
+        transform: scale(1) 
+    }
+}
+@keyframes leftRight {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-150px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(150px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+
 }

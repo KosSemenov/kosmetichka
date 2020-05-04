@@ -4,23 +4,23 @@
     display: flex;
     &__first {
         min-height: 450px;
-        background-image: url("../../img/BG_slaider1.png");
+        background-image: url("../img/BG_slaider1.png");
     }
     &__second {
         min-height: 450px;
-        background-image: url("../../img/BG_slider2.jpg");
+        background-image: url("../img/BG_slider2.jpg");
         background-position: 50% 40%;
         background-size: 100% 180%;
     }
     &__third {
         min-height: 450px;
-        background-image: url("../../img/BG_slider3.jpg");
+        background-image: url("../img/BG_slider3.jpg");
         background-position: 50% 10%;
         background-size: 100% 120%;
     }
     &__fourth {
         min-height: 450px;
-        background-image: url("../../img/BG_slider4.jpg");
+        background-image: url("../img/BG_slider4.jpg");
         background-position: 100% 45%;
         background-size: 120% 150%;
     }
